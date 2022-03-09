@@ -1,0 +1,34 @@
+public class Main
+{
+  public static void main (String[]args)
+  {
+
+    
+    int totalGrade = totalGrade (50, 50);
+    System.out.println(totalGrade);
+      temperature (36);
+  }
+  public static void temperature (int num1)
+  {
+
+    if (num1 <= 16)
+      {
+	System.out.println ("Cold");
+      }
+    else
+      {
+	System.out.println ("HOT");
+      }
+
+  }
+
+  public static int totalGrade (int num1, int num2)
+  {
+
+    return num1 + num2;
+
+  }
+
+
+
+}
